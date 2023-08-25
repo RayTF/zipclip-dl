@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>zipclip-dl</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="description" content="Download ZipClip videos">
+  <link rel="icon" type="image/png" href="zipclip-dl.ico" />
+  <link rel="shortcut icon" type="image/png" href="zipclip-dl.ico" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h1>zipclip-dl</h1>
+      <p><b>Easily download ZipClip videos.</b></p>
+      <hr>
+    </header>
+    <div id="contentMain">
+      <div id="dlWidget">
+        <p><b>Paste ZipClip video URL below:</b></p>
+        <form onsubmit="SUBROCKS_DL.fetchVideo(event); return false;">
+          <input type="text" id="urlField" placeholder="https://zipclip.pw/watch?v=">
+          <input type="submit">
+        </form>
+      </div>
+      <br>
+      <div id="dlOutput">
+        <p><b>Video preview:</b></p>
+        <video id="videoPreview" autoplay controls></video>
+        <a id="videoDownload"><button>Download video</button></a>
+      </div>
+    </div>
+    <footer>
+      <hr>
+        <ul>
+          <li>By <a class="hover au" href="https://raythefox.pw" target="_blank">R4Y_TF</a></li>
+          <li>Source code:&nbsp;<a class="hover au" href="https://github.com/RayTF/zipclip-dl" target="_blank">GitHub</a></li>
+          <li>Based on: <a class="hover au" href="https://github.com/catrilldev/subrocks-dl" target="_blank">SubRocks-DL</a></li>
+        </ul>
+    </footer>
+  </main>
+  <script src="./zipclip-dl.js"></script>
+</body>
+</html>

@@ -1,7 +1,8 @@
 # ZipClip-DL
 Easily Download ZipClip Videos
-Based on (https://github.com/catrilldev/subrocks-dl)[SubRocks-DL] by Literal Line
+
+Based on [SubRocks-DL](https://github.com/catrilldev/subrocks-dl) by Literal Line
 
 ## How?
 
-Go to (https://raytf.github.io/zipclip-dl)[this page] and paste your ZipClip Video URL, and enjoy
+Go to [this page](https://raytf.github.io/zipclip-dl) and paste your ZipClip Video URL, and enjoy
